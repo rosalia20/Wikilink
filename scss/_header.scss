@@ -1,0 +1,38 @@
+header {
+    background-color: $rosa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo img {
+        height: 50px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+
+        .active a {
+            color: $azulclaro;
+        }
+
+        li {
+            margin-right: 20px;
+
+            a {
+                text-decoration: none;
+                color: $azul;
+                font-weight: bold;
+                font-size: 18px;
+                transition: color 0.3s ease-in-out;
+
+
+
+                &:hover {
+                    color: $azulclaro;
+                }
+            }
+        }
+    }
+}

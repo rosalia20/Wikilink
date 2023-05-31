@@ -1,0 +1,23 @@
+@mixin text-styles($heading-size, $heading-second, $heading-third, $paragraph-size) {
+    h1 {
+        font-size: $heading-size;
+    }
+
+    h2 {
+        font-size: $heading-second;
+    }
+
+    h3 {
+        font-size: $heading-third;
+    }
+
+    p {
+        font-size: $paragraph-size;
+    }
+}
+
+.element {
+    @include text-styles(64px, 42px, 32px, 20px);
+}
+
+  

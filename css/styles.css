@@ -1,0 +1,172 @@
+.element h1 {
+  font-size: 64px;
+}
+.element h2 {
+  font-size: 42px;
+}
+.element h3 {
+  font-size: 32px;
+}
+.element p {
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #243a42;
+  color: #ded9d2;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 1.5;
+}
+body header {
+  background-color: #ddaea0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .logo img {
+  height: 50px;
+}
+body header nav ul {
+  list-style: none;
+  display: flex;
+}
+body header nav ul .active a {
+  color: #006388;
+}
+body header nav ul li {
+  margin-right: 20px;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: #243a42;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+body header nav ul li a:hover {
+  color: #006388;
+}
+body main .seccionbienvenida {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .seccionbienvenida .container h1 {
+  color: #ded9d2;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 20px;
+}
+body main .seccionbienvenida .container p {
+  color: #ded9d2;
+  font-family: "Montserrat";
+  margin-bottom: 40px;
+  max-width: 700px;
+  text-align: justify;
+  line-height: 1.5;
+}
+body main .seccionbienvenida .container .btn {
+  display: inline-block;
+  background-color: #243a42;
+  color: #ded9d2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+body main .seccionbienvenida .container .btn:hover {
+  background-color: #006388;
+}
+body main #inicio {
+  padding: 50px 0;
+}
+body main #inicio .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+body main #inicio .container h2 {
+  margin-bottom: 20px;
+  color: #dd5a3e;
+  font-family: "Bebas Neue", cursive;
+}
+body main #inicio .container p {
+  margin-bottom: 40px;
+}
+body main #inicio .container h3 {
+  margin-bottom: 20px;
+  color: #dd5a3e;
+  font-family: "Bebas Neue", cursive;
+}
+body main #inicio .container ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+body main .features {
+  background-color: #dd5a3e;
+  padding: 40px 0;
+}
+body main .features .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body main .features .container .feature {
+  text-align: center;
+  margin: 50px;
+  flex-basis: calc(33.33% - 40px);
+  max-width: 300px;
+}
+body main .features .container .feature img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+body main .features .container .feature h2 {
+  color: #243a42;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+body main .features .container .feature p {
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+body main .features .container .feature .btn {
+  display: inline-block;
+  background-color: #243a42;
+  color: #ded9d2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+body main .features .container .feature .btn:hover {
+  background-color: #006388;
+}
+body footer {
+  background-color: #ddaea0;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+body footer p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #243a42;
+}/*# sourceMappingURL=styles.css.map */
